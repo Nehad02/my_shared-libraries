@@ -1,3 +1,3 @@
 def call(repo) {
-    sh "git clone ${repo}"
+    git url: repo, branch: 'main'
 }
